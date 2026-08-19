@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="#2F6B66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- sailboat: 基础篇 -->
+  <path d="M30 10 L30 44"/>
+  <path d="M30 12 C40 18 44 28 44 40 L30 40 Z"/>
+  <path d="M28 18 C20 24 17 32 17 40 L28 40 Z"/>
+  <!-- hull -->
+  <path d="M12 44 L52 44 L46 54 Q45 55.5 43 55.5 L21 55.5 Q19 55.5 18 54 Z"/>
+  <line x1="12" y1="44" x2="52" y2="44"/>
+  <!-- pennant -->
+  <path d="M30 10 L38 12.5 L30 15" stroke="#C9A24B"/>
+  <!-- waves -->
+  <path d="M8 58 Q12 55 16 58 Q20 61 24 58" opacity="0.7"/>
+  <path d="M40 58 Q44 55 48 58 Q52 61 56 58" opacity="0.7"/>
+</svg>

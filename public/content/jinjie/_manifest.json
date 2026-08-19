@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "00-user-login",
+    "title": "如何让用户登录：Supabase 等方案实战",
+    "order": 0,
+    "summary": "用Supabase为网站接入Google/GitHub登录及替代方案",
+    "imageCount": 23,
+    "wordCount": 1904
+  },
+  {
+    "slug": "01-stripe",
+    "title": "Stripe 支付集成指南",
+    "order": 1,
+    "summary": "Stripe支付集成全流程：账户注册、沙盒配置、Webhook与上线",
+    "imageCount": 38,
+    "wordCount": 1043
+  },
+  {
+    "slug": "02-fullstack-nextjs",
+    "title": "前后端、源代码、数据库、用户认证与 Next.js",
+    "order": 2,
+    "summary": "前后端分离、源代码、数据库、用户认证与Next.js实战",
+    "imageCount": 40,
+    "wordCount": 24578
+  },
+  {
+    "slug": "03-ide-github-api",
+    "title": "IDE 工具、GitHub、API 与环境变量实战",
+    "order": 3,
+    "summary": "IDE工具、GitHub源代码管理、API与环境变量实战",
+    "imageCount": 40,
+    "wordCount": 21134
+  },
+  {
+    "slug": "04-claude-code-mcp",
+    "title": "Claude Code、MCP、Skills 与工作流实战",
+    "order": 4,
+    "summary": "Claude Code等CLI工具、MCP、Skills与开源工作流实战",
+    "imageCount": 40,
+    "wordCount": 29407
+  },
+  {
+    "slug": "02b-fullstack-code",
+    "title": "实战进阶(1)：前后端、源代码、数据库、用户认证、Next.js 配套代码",
+    "order": 2.1,
+    "summary": "配套代码与提示词：项目结构、SQL、环境变量配置",
+    "imageCount": 0,
+    "wordCount": 537
+  },
+  {
+    "slug": "04b-claude-code-prompts",
+    "title": "实战进阶(4-4)：Claude Code、MCP、Skills、产品迭代、开源生态 配套提示词",
+    "order": 4.1,
+    "summary": "配套提示词：Claude Code 实操、CLAUDE.md、Skills 与插件",
+    "imageCount": 0,
+    "wordCount": 1531
+  }
+]

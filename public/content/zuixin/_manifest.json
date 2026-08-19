@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "01-no-coding-needed",
+    "title": "快速入门：你不需要会编程（已优化）",
+    "subcat": "快速入门",
+    "order": 1.0,
+    "date": "",
+    "summary": "无需编程基础，用 AI 也能做出产品",
+    "imageCount": 11,
+    "wordCount": 702
+  },
+  {
+    "slug": "02-meet-your-partner",
+    "title": "快速入门：认识你的新伙伴",
+    "subcat": "快速入门",
+    "order": 2.0,
+    "date": "",
+    "summary": "认识你的 AI 编程新伙伴，快速上手",
+    "imageCount": 40,
+    "wordCount": 2560
+  },
+  {
+    "slug": "03-kickoff-ceremony",
+    "title": "深海圈开船仪式（开营仪式）",
+    "subcat": "海外AI产品",
+    "order": 3.0,
+    "date": "2026-04-05",
+    "summary": "开营仪式：课程概览、安排与学习方法",
+    "imageCount": 14,
+    "wordCount": 2576
+  },
+  {
+    "slug": "04-beyond-coze",
+    "title": "离开扣子编程，浅尝深水区（上下篇合并）",
+    "subcat": "海外AI产品",
+    "order": 4.0,
+    "date": "2026-04-05",
+    "summary": "直播实录：从扣子编程迈向深水区开发",
+    "imageCount": 74,
+    "wordCount": 21592
+  },
+  {
+    "slug": "05-dense-terms",
+    "title": "离技术术语密集输入！",
+    "subcat": "海外AI产品",
+    "order": 5.0,
+    "date": "2026-04-18",
+    "summary": "核心技术术语密集输入，扫清概念障碍",
+    "imageCount": 8,
+    "wordCount": 1537
+  },
+  {
+    "slug": "06-money-making-products",
+    "title": "什么产品能赚钱",
+    "subcat": "商业化",
+    "order": 6.0,
+    "date": "2026-04-29",
+    "summary": "商业化选品：什么样的产品能赚钱",
+    "imageCount": 40,
+    "wordCount": 3111
+  },
+  {
+    "slug": "07-student-stories",
+    "title": "优秀学员心得",
+    "subcat": "学员分享",
+    "order": 7.0,
+    "date": "",
+    "summary": "优秀学员学习心得合集（飞书文档）",
+    "imageCount": 0,
+    "wordCount": 120
+  },
+  {
+    "slug": "08-opening-summary",
+    "title": "开营仪式主理人总结",
+    "subcat": "学员分享",
+    "order": 8.0,
+    "date": "",
+    "summary": "主理人开营总结与三点学习要求",
+    "imageCount": 0,
+    "wordCount": 342
+  },
+  {
+    "slug": "09-honghong-spec",
+    "title": "哄哄模拟器 · 项目规格说明书",
+    "subcat": "项目实战",
+    "order": 9.0,
+    "date": "",
+    "summary": "情侣互动 AI 游戏的项目规格说明书",
+    "imageCount": 0,
+    "wordCount": 12330
+  },
+  {
+    "slug": "10-app-miniprogram",
+    "title": "怎么做 App 和小程序",
+    "subcat": "商业化",
+    "order": 10.0,
+    "date": "",
+    "summary": "做 App/小程序前的方向选择：国内还是海外、选什么产品形态与变现路径。",
+    "imageCount": 40,
+    "wordCount": 73202
+  },
+  {
+    "slug": "11-paid-ai-products",
+    "title": "做能收钱的海外 AI 产品",
+    "subcat": "商业化",
+    "order": 11.0,
+    "date": "",
+    "summary": "MicroSaaS 产品四件套：落地页、用户中心、核心功能与支付接入实战。",
+    "imageCount": 40,
+    "wordCount": 58929
+  },
+  {
+    "slug": "12-growth-after-launch",
+    "title": "产品做出来了，然后呢？",
+    "subcat": "增长",
+    "order": 12.0,
+    "date": "",
+    "summary": "产品上线后的增长打法：冷启动原则、公开建造与获客渠道实战。",
+    "imageCount": 40,
+    "wordCount": 92003
+  },
+  {
+    "slug": "13-stable-ai-coding",
+    "title": "让 AI 写出不翻车的代码",
+    "subcat": "增长",
+    "order": 13.0,
+    "date": "",
+    "summary": "用上下文工程管理会“失忆”的 AI，写出稳定不翻车的代码。",
+    "imageCount": 40,
+    "wordCount": 117627
+  },
+  {
+    "slug": "14-product-ideas",
+    "title": "如何获得产品 idea",
+    "subcat": "商业化",
+    "order": 14.0,
+    "date": "2022-11-10",
+    "summary": "获得产品 idea 的五种常见方法，成功率递减，原生 idea 最优。",
+    "imageCount": 5,
+    "wordCount": 4938
+  },
+  {
+    "slug": "15-xiaoerdu-story",
+    "title": "小耳朵的出海之路（直播逐字稿·上下合集）",
+    "subcat": "学员分享",
+    "order": 15.0,
+    "date": "2026-03-30",
+    "summary": "小耳朵学长从零到月入4万美金的出海直播逐字稿",
+    "imageCount": 0,
+    "wordCount": 28528
+  },
+  {
+    "slug": "16-xiaoerdu-summary",
+    "title": "小耳朵学长经验贴：三阶段通关（主理人总结）",
+    "subcat": "学员分享",
+    "order": 16.0,
+    "date": "2026-03-30",
+    "summary": "主理人拆解小耳朵从零到月入4万美金的三个阶段",
+    "imageCount": 0,
+    "wordCount": 1239
+  },
+  {
+    "slug": "17-hermes-wechat",
+    "title": "一句话安装 Hermes，另一句话让它管理微信",
+    "subcat": "新玩法",
+    "order": 17.0,
+    "date": "",
+    "summary": "用两条指令安装 Hermes 并让它自动管理微信消息",
+    "imageCount": 9,
+    "wordCount": 626
+  },
+  {
+    "slug": "18-ex-programmer-3700",
+    "title": "大厂程序员裸辞4个月，全自动化上站，游戏站广告单月净赚3700刀",
+    "subcat": "学员分享",
+    "order": 18.0,
+    "date": "",
+    "summary": "裸辞程序员靠游戏站广告实现单月净赚3700刀",
+    "imageCount": 1,
+    "wordCount": 3609
+  },
+  {
+    "slug": "19-indie-hacker-lessons",
+    "title": "独立开发者在变现路上的经验与教训",
+    "subcat": "学员分享",
+    "order": 19.0,
+    "date": "",
+    "summary": "独立开发者变现的20条经验教训与系统化框架",
+    "imageCount": 0,
+    "wordCount": 1483
+  },
+  {
+    "slug": "20-first-sale-lessons",
+    "title": "靠亏损几千破首单：新人航海经验分享",
+    "subcat": "学员分享",
+    "order": 20.0,
+    "date": "",
+    "summary": "大厂前端20天跑通视频SaaS全流程破首单的复盘",
+    "imageCount": 18,
+    "wordCount": 3471
+  }
+]

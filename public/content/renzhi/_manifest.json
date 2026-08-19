@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "01-what-is-product",
+    "title": "什么是产品？",
+    "order": 1,
+    "summary": "产品是一个具体问题的解决方案，问题越大越难、受众越多，产品越有价值。",
+    "imageCount": 0,
+    "wordCount": 354
+  },
+  {
+    "slug": "02-mvp",
+    "title": "什么是 MVP？",
+    "order": 2,
+    "summary": "MVP 即最小可行产品，用最小投入验证核心理念与市场需求，降低风险。",
+    "imageCount": 0,
+    "wordCount": 511
+  },
+  {
+    "slug": "03-overseas-business",
+    "title": "海外软件产品是一门怎样的生意？",
+    "order": 3,
+    "summary": "软件生意边际成本近乎为零，中国人做海外软件，利润惊人。",
+    "imageCount": 1,
+    "wordCount": 507
+  },
+  {
+    "slug": "04-barrier",
+    "title": "软件生意真正的门槛是什么？",
+    "order": 4,
+    "summary": "真正的门槛是需求洞察与创造性解决问题的能力，而非技术与资金。",
+    "imageCount": 0,
+    "wordCount": 407
+  },
+  {
+    "slug": "05-why-overseas-web",
+    "title": "为什么要从海外网站产品开始？",
+    "order": 5,
+    "summary": "网站试错成本低、传播阻力小，海外基础设施完善，更适合起步。",
+    "imageCount": 0,
+    "wordCount": 219
+  },
+  {
+    "slug": "06-other-platforms",
+    "title": "我想做手机应用、小程序、桌面应用，可以吗？",
+    "order": 6,
+    "summary": "技术上完全可行；海外用户先做 Web，国内用户先做小程序。",
+    "imageCount": 0,
+    "wordCount": 225
+  },
+  {
+    "slug": "07-find-api",
+    "title": "我看到别人的好产品，怎么知道它的原始 API 是什么？",
+    "order": 7,
+    "summary": "像拆解魔术一样拆解产品：泡在 Replicate 和 Toolify 圈子里。",
+    "imageCount": 0,
+    "wordCount": 310
+  },
+  {
+    "slug": "08-cool-apis",
+    "title": "普通的 API 都很乏味，到哪里搞到更酷的 API？",
+    "order": 8,
+    "summary": "到 Coze 研究并复刻优秀工作流，再套壳做成自己的产品 API。",
+    "imageCount": 6,
+    "wordCount": 285
+  },
+  {
+    "slug": "09-monetization",
+    "title": "海外网站产品的变现方式有哪些？",
+    "order": 9,
+    "summary": "主流变现为广告与订阅，另有单份售卖、软文、联盟销售与电商。",
+    "imageCount": 0,
+    "wordCount": 1385
+  },
+  {
+    "slug": "10-profit-models",
+    "title": "软件产品的盈利模型有哪些？",
+    "order": 10,
+    "summary": "赚钱围绕流量与产品：卖流量变现，或广告+付费订阅组合。",
+    "imageCount": 0,
+    "wordCount": 674
+  },
+  {
+    "slug": "11-success-rate",
+    "title": "这个生意的成功率是怎样的？",
+    "order": 11,
+    "summary": "顶级独立开发者成功率仅约 5%，成功的秘诀是\"多\"。",
+    "imageCount": 0,
+    "wordCount": 129
+  },
+  {
+    "slug": "12-ai-business-flow",
+    "title": "使用 AI 做软件生意的流程？",
+    "order": 12,
+    "summary": "四个阶段：洞察需求、变成产品方案、落地为产品、扩大成功产品收益。",
+    "imageCount": 1,
+    "wordCount": 978
+  }
+]

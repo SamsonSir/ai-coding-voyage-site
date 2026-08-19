@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="#5B7B8C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- lighthouse: 认知篇 -->
+  <path d="M26 54 L29 22 L35 22 L38 54 Z"/>
+  <line x1="27.5" y1="42" x2="36.5" y2="42"/>
+  <line x1="28.2" y1="34" x2="35.8" y2="34"/>
+  <rect x="27" y="14" width="10" height="8" rx="1"/>
+  <path d="M25 14 L32 8 L39 14"/>
+  <path d="M32 8 L32 5"/>
+  <!-- light beams -->
+  <path d="M27 17 L16 13" opacity="0.7"/>
+  <path d="M27 20 L17 22" opacity="0.7"/>
+  <path d="M37 17 L48 13" opacity="0.7"/>
+  <path d="M37 20 L47 22" opacity="0.7"/>
+  <!-- rocks & waves -->
+  <path d="M14 54 Q18 50 22 54 Q26 58 30 54" opacity="0.7"/>
+  <path d="M34 54 Q38 50 42 54 Q46 58 50 54" opacity="0.7"/>
+</svg>

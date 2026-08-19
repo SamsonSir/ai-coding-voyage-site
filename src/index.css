@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* —— 航海纸质主色板 —— */
+    --paper: #F7F2E9;
+    --paper-deep: #EFE7D8;
+    --paper-dark: #E6DCC8;
+    --ink: #2B2620;
+    --ink-soft: #5C554A;
+    --ink-faint: #8A8172;
+    --teal: #2F6B66;
+    --teal-deep: #1F4A46;
+    --teal-mist: #DCE8E5;
+    --vermilion: #C4553B;
+    --vermilion-soft: #E8A58F;
+    --gold: #C9A24B;
+    --line: #DDD3BF;
+    --code-bg: #26221C;
+    --white: #FDFBF6;
+    /* 五大板块专属色 */
+    --cat-renzhi: #5B7B8C;
+    --cat-jichu: #2F6B66;
+    --cat-neigong: #6B7A4E;
+    --cat-jinjie: #A8793E;
+    --cat-zuixin: #C4553B;
+
+    /* shadcn/ui tokens（映射到纸色系） */
+    --background: 43 38% 94%;
+    --foreground: 36 14% 15%;
+    --card: 45 50% 97%;
+    --card-foreground: 36 14% 15%;
+    --popover: 45 50% 97%;
+    --popover-foreground: 36 14% 15%;
+    --primary: 176 38% 30%;
+    --primary-foreground: 43 38% 94%;
+    --secondary: 42 36% 89%;
+    --secondary-foreground: 36 14% 15%;
+    --muted: 42 36% 89%;
+    --muted-foreground: 36 9% 49%;
+    --accent: 42 36% 89%;
+    --accent-foreground: 36 14% 15%;
+    --destructive: 11 55% 50%;
+    --destructive-foreground: 43 38% 94%;
+    --border: 40 27% 81%;
+    --input: 40 27% 81%;
+    --ring: 176 38% 30%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-line;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    font-size: 16px;
+    line-height: 1.85;
+    letter-spacing: 0.01em;
+  }
+
+  /* 全局纸纹理叠加（极低透明度噪点） */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    pointer-events: none;
+    background-image: url('/texture-paper.svg');
+    background-size: 256px 256px;
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+  }
+
+  ::selection {
+    background: var(--teal-mist);
+    color: var(--teal-deep);
+  }
+
+  /* 自定义滚动条（WebKit）：宽 10px，轨道 paper-deep，滑块 paper-dark */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--paper-deep);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--paper-dark);
+    border-radius: 8px;
+    border: 2px solid var(--paper-deep);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--ink-faint);
+  }
+}
+
+@layer utilities {
+  /* 隐藏滚动条（横滑卡片区） */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

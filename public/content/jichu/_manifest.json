@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "preface",
+    "title": "航海前言",
+    "order": 0,
+    "summary": "课程总览：从零到一做 AI 软件生意的全流程介绍与学习门槛",
+    "imageCount": 9,
+    "wordCount": 3815
+  },
+  {
+    "slug": "01-play-publish",
+    "title": "玩起来！通过 AI，10 分钟发布你的第一款网站产品",
+    "order": 1,
+    "summary": "用 Bolt.new 不写代码，10 分钟做出并发布第一个网站产品",
+    "imageCount": 22,
+    "wordCount": 6385
+  },
+  {
+    "slug": "02-ai-product",
+    "title": "怎么做「AI 产品」？",
+    "order": 2,
+    "summary": "讲清什么是 AI 产品，并用 SPEC 方法梳理产品需求",
+    "imageCount": 9,
+    "wordCount": 3685
+  },
+  {
+    "slug": "02b-supplement",
+    "title": "第二课补充：PDF 里看不清的提示词与 SPEC 全文",
+    "order": 2.1,
+    "summary": "第二课的提示词与三份完整产品 SPEC 的文字版补充",
+    "imageCount": 0,
+    "wordCount": 3484
+  },
+  {
+    "slug": "03-cursor-polish",
+    "title": "如何使用 Cursor 打磨产品？",
+    "order": 3,
+    "summary": "AI 开发四步流程，用 Cursor 精细打磨 Bolt 做出的产品原型",
+    "imageCount": 20,
+    "wordCount": 6619
+  },
+  {
+    "slug": "04-github",
+    "title": "如何使用 GitHub 管理源代码？",
+    "order": 4,
+    "summary": "GitHub 入门：用版本控制管理代码，告别改崩无法回退",
+    "imageCount": 56,
+    "wordCount": 8629
+  },
+  {
+    "slug": "05-deploy",
+    "title": "如何正式发布你的网站产品？",
+    "order": 5,
+    "summary": "用 Vercel 一键部署网站并绑定自己的域名，提交代码即上线",
+    "imageCount": 34,
+    "wordCount": 6924
+  },
+  {
+    "slug": "06-analytics",
+    "title": "如何分析用户行为？",
+    "order": 6,
+    "summary": "用 Plausible 等工具统计访问数据，依据用户行为迭代产品",
+    "imageCount": 9,
+    "wordCount": 3642
+  },
+  {
+    "slug": "07-design",
+    "title": "如何让产品变得高端大气上档次？",
+    "order": 7,
+    "summary": "拆解标准 Landing Page 结构，用 AI 做出高级感的页面设计",
+    "imageCount": 14,
+    "wordCount": 3318
+  },
+  {
+    "slug": "08-open-source",
+    "title": "如何借助开源软件加快开发过程？",
+    "order": 8,
+    "summary": "在 GitHub 找优质开源项目魔改，站在巨人肩膀上快速开发",
+    "imageCount": 13,
+    "wordCount": 1944
+  },
+  {
+    "slug": "09-cold-start",
+    "title": "如何冷启动",
+    "order": 9,
+    "summary": "借鉴 Pieter Levels 的方法，在发布平台和社群获取第一批用户",
+    "imageCount": 4,
+    "wordCount": 3290
+  },
+  {
+    "slug": "10-ai-potential",
+    "title": "如何让 AI 发挥最大的潜力？",
+    "order": 10,
+    "summary": "抛弃提示词工程思维，用扮演严苛老板的方式逼出 AI 最大潜力",
+    "imageCount": 5,
+    "wordCount": 1728
+  },
+  {
+    "slug": "11-what-else",
+    "title": "我们还需要什么？",
+    "order": 11,
+    "summary": "MVP 之外还缺用户系统、变现、支付与国际化，预告后续篇章",
+    "imageCount": 0,
+    "wordCount": 560
+  }
+]
