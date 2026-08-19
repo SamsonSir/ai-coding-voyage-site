@@ -16,7 +16,7 @@ import {
   SheetTitle,
 } from '@/components/ui/sheet';
 import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
-import { cn } from '@/lib/utils';
+import { cn, publicUrl } from '@/lib/utils';
 import AnnotationEditor from './AnnotationEditor';
 import ThumbGallery from './ThumbGallery';
 import { formatTime, quoteExcerpt } from './utils';
@@ -73,7 +73,7 @@ export default function AnnotationsPanel({
             {ordered.length === 0 ? (
               <div className="mt-14 text-center">
                 <img
-                  src="/empty-treasure.svg"
+                  src={publicUrl('/empty-treasure.svg')}
                   alt="空宝箱"
                   className="mx-auto h-28 w-auto opacity-90"
                 />

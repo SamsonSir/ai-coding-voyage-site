@@ -6,6 +6,7 @@
 import { useEffect, useState } from 'react';
 import { ARTICLE_MAP } from '@/data/articles';
 import type { ArticleMeta } from '@/data/articles';
+import { publicUrl } from '@/lib/utils';
 
 export interface ArticleFrontmatter {
   title?: string;
@@ -58,7 +59,7 @@ export function resolveImagePaths(markdown: string, category: string): string {
     /!\[([^\]]*)\]\((?!https?:\/\/|\/)([^)]+)\)/g,
     (_all, alt: string, src: string) => {
       const clean = src.replace(/^\.\//, '');
-      return `![${alt}](/content/${category}/${clean})`;
+      return `![${alt}](${publicUrl(`/content/${category}/${clean}`)})`;
     },
   );
 }
@@ -83,7 +84,7 @@ export function useArticle(slug: string | undefined): UseArticleResult {
     const category = slug.split('/')[0];
     let cancelled = false;
 
-    fetch(`/content/${slug}.md`)
+    fetch(publicUrl(`/content/${slug}.md`))
       .then((res) => {
         if (!res.ok) throw new Error(`文章加载失败（HTTP ${res.status}）`);
         return res.text();

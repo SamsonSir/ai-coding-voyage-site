@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { CATEGORIES } from '@/data/categories';
 import { manifest } from '@/data/articles';
 import { useProgress } from '@/contexts/ProgressContext';
+import { publicUrl } from '@/lib/utils';
 
 const QUICK_LINKS = [
   { to: '/catalog', label: '目录' },
@@ -22,7 +23,7 @@ export default function Footer() {
       {/* 顶部金色虚线航线 + 罗盘点缀 */}
       <div className="absolute inset-x-0 top-0 flex items-center justify-center gap-6 overflow-hidden" aria-hidden>
         <span className="h-px flex-1 border-t border-dashed border-gold/50" />
-        <img src="/logo-compass.svg" alt="" className="h-6 w-6 opacity-70" />
+        <img src={publicUrl('/logo-compass.svg')} alt="" className="h-6 w-6 opacity-70" />
         <span className="h-px w-16 border-t border-dashed border-gold/50" />
         <svg viewBox="0 0 24 24" className="h-5 w-5 text-gold/70" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
           <circle cx="12" cy="5" r="2" />
@@ -38,7 +39,7 @@ export default function Footer() {
           {/* 品牌栏 */}
           <div>
             <div className="flex items-center gap-3">
-              <img src="/logo-compass.svg" alt="罗盘 Logo" className="h-10 w-10" />
+              <img src={publicUrl('/logo-compass.svg')} alt="罗盘 Logo" className="h-10 w-10" />
               <div className="flex flex-col">
                 <span className="font-serif text-lg font-bold">AI 编程航海学院</span>
                 <span className="mt-1 font-display text-[10px] font-semibold uppercase tracking-[0.3em] text-gold">

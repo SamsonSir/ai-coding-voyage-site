@@ -16,6 +16,7 @@ import type { CategoryId, CategoryMeta } from '@/data/categories';
 import { estimateCategoryHours, getArticlesByCategory } from '@/data/articles';
 import { useProgress } from '@/contexts/ProgressContext';
 import ProgressRing from '@/components/ProgressRing';
+import { publicUrl } from '@/lib/utils';
 import {
   Sheet,
   SheetContent,
@@ -315,7 +316,7 @@ export default function SeaChart() {
       {/* path-map.png 主视觉背景（铺满 cover，paper 底色防加载闪烁） */}
       <div
         className="absolute inset-0 bg-paper bg-cover bg-center"
-        style={{ backgroundImage: "url('/path-map.png')" }}
+        style={{ backgroundImage: `url('${publicUrl('/path-map.png')}')` }}
         aria-hidden
       />
       {/* 半透明纸色渐变叠加（顶部→底部 opacity 0.5→0.2）保证可读性 */}

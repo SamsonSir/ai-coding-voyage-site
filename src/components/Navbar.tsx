@@ -10,6 +10,7 @@ import { Menu, X } from 'lucide-react';
 import ProgressRing from '@/components/ProgressRing';
 import { useProgress } from '@/contexts/ProgressContext';
 import { ARTICLE_MAP } from '@/data/articles';
+import { publicUrl } from '@/lib/utils';
 
 export const NAV_HEIGHT = 72;
 
@@ -60,7 +61,7 @@ export default function Navbar() {
           {/* 左：站点标志 */}
           <Link to="/" className="group flex items-center gap-3" aria-label="返回首页">
             <img
-              src="/logo-compass.svg"
+              src={publicUrl('/logo-compass.svg')}
               alt="罗盘 Logo"
               className="h-9 w-9 transition-transform duration-500 group-hover:rotate-45"
             />
@@ -151,7 +152,7 @@ export default function Navbar() {
               transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
             >
               <div className="flex items-center justify-between">
-                <img src="/logo-compass.svg" alt="" className="h-9 w-9" />
+                <img src={publicUrl('/logo-compass.svg')} alt="" className="h-9 w-9" />
                 <button
                   type="button"
                   className="flex h-10 w-10 items-center justify-center rounded-lg text-ink hover:bg-paper-deep"

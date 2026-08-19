@@ -12,6 +12,7 @@ import { useProgress } from '@/contexts/ProgressContext';
 import { ARTICLE_MAP } from '@/data/articles';
 import { TOTAL_ARTICLES } from '@/data/categories';
 import SplitChars from '@/pages/home/SplitChars';
+import { publicUrl } from '@/lib/utils';
 
 const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number];
 
@@ -39,7 +40,7 @@ export default function HeroSection() {
       {/* 背景航海图（opacity 0.14 + 视差） */}
       <motion.div className="absolute inset-0 -z-10" style={{ y: bgY }} aria-hidden>
         <img
-          src="/hero-map-bg.png"
+          src={publicUrl('/hero-map-bg.png')}
           alt=""
           className="h-[115%] w-full object-cover opacity-[0.14]"
         />
@@ -47,7 +48,7 @@ export default function HeroSection() {
 
       {/* 装饰罗盘（480px，opacity 0.1，60s 一圈） */}
       <img
-        src="/logo-compass.svg"
+        src={publicUrl('/logo-compass.svg')}
         alt=""
         aria-hidden
         className="pointer-events-none absolute -right-28 -top-28 -z-10 h-[480px] w-[480px] animate-spin-slow opacity-10"

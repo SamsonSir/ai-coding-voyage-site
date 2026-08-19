@@ -7,6 +7,7 @@ import { memo } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import { publicUrl } from '@/lib/utils';
 
 const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number];
 
@@ -14,7 +15,7 @@ const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number];
 const SwayingChest = memo(function SwayingChest() {
   return (
     <motion.img
-      src="/empty-treasure.svg"
+      src={publicUrl('/empty-treasure.svg')}
       alt="空宝箱插画"
       width={240}
       height={180}

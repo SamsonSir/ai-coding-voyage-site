@@ -3,6 +3,8 @@
  * 固定推荐顺序：认知篇 → 基础篇 → 内功篇 → 进阶篇 → 最新更新
  */
 
+import { publicUrl } from '@/lib/utils';
+
 export type CategoryId = 'renzhi' | 'jichu' | 'neigong' | 'jinjie' | 'zuixin';
 
 export interface CategoryMeta {
@@ -37,7 +39,7 @@ export const CATEGORIES: CategoryMeta[] = [
     en: 'THE LIGHTHOUSE',
     color: '#5B7B8C',
     colorVar: 'var(--cat-renzhi)',
-    icon: '/icon-renzhi.svg',
+    icon: publicUrl('/icon-renzhi.svg'),
     tagline: '商业认知打地基，先看懂海图再出海',
     gain: '先看懂海图：建立商业认知与变现思路',
     order: 1,
@@ -50,7 +52,7 @@ export const CATEGORIES: CategoryMeta[] = [
     en: 'THE FIRST SAIL',
     color: '#2F6B66',
     colorVar: 'var(--cat-jichu)',
-    icon: '/icon-jichu.svg',
+    icon: publicUrl('/icon-jichu.svg'),
     tagline: '动手实操主线，做出你的第一个产品',
     gain: '第一次扬帆：动手做出第一个产品',
     order: 2,
@@ -63,7 +65,7 @@ export const CATEGORIES: CategoryMeta[] = [
     en: 'INNER CRAFT',
     color: '#6B7A4E',
     colorVar: 'var(--cat-neigong)',
-    icon: '/icon-neigong.svg',
+    icon: publicUrl('/icon-neigong.svg'),
     tagline: '修炼技术内功，让船更稳更快',
     gain: '修炼内功：技术基础让船更稳',
     order: 3,
@@ -76,7 +78,7 @@ export const CATEGORIES: CategoryMeta[] = [
     en: 'DEEP WATERS',
     color: '#A8793E',
     colorVar: 'var(--cat-jinjie)',
-    icon: '/icon-jinjie.svg',
+    icon: publicUrl('/icon-jinjie.svg'),
     tagline: '登录 / 支付 / Claude Code 工作流实战',
     gain: '深海实战：登录、支付与 Claude Code 工作流',
     order: 4,
@@ -89,7 +91,7 @@ export const CATEGORIES: CategoryMeta[] = [
     en: 'NEW HORIZONS',
     color: '#C4553B',
     colorVar: 'var(--cat-zuixin)',
-    icon: '/icon-zuixin.svg',
+    icon: publicUrl('/icon-zuixin.svg'),
     tagline: '2026 新资料，持续更新的新大陆',
     gain: '新大陆：2026 持续更新的新内容',
     order: 5,

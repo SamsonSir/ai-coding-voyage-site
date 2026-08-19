@@ -4,6 +4,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Compass } from 'lucide-react';
+import { publicUrl } from '@/lib/utils';
 
 export default function ArticleNotFound({ message }: { message?: string | null }) {
   return (
@@ -13,7 +14,7 @@ export default function ArticleNotFound({ message }: { message?: string | null }
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
     >
-      <img src="/empty-treasure.svg" alt="" className="h-36 w-auto opacity-90" />
+      <img src={publicUrl('/empty-treasure.svg')} alt="" className="h-36 w-auto opacity-90" />
       <h1 className="mt-8 font-serif text-2xl font-bold text-ink md:text-3xl">
         这座岛屿还没有藏宝图
       </h1>
